@@ -25,6 +25,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  name: default
   namespace: springboot-k8ssvc
 spec:
   selector:
